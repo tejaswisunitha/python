@@ -1,5 +1,5 @@
 num = int(raw_input())
- temp = num
+temp = num
 rev = 0
  while temp != 0:
     rev = (rev * 10) + (temp % 10)
