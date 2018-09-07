@@ -9,5 +9,5 @@ def power(a,b):
                 b=(b-1)/2
                 res_odd= power(a,b)
                 return a*res_odd*res_odd
-pow = power(2,10)
+pow = power(2,3)
 print(pow)
