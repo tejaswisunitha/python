@@ -1,7 +1,8 @@
-num = int(raw_input())
-for i in range(2,int(num/2)):
-    if num%i==0:
-        print("yes")
+num=int(raw_input())
+if n>1:
+    for i in range(2,num):
+        if num%i==0:
+        print("no")
         break
 else:
-    print("no")
+    print("yes")
