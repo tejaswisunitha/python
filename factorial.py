@@ -1,6 +1,6 @@
-n=int(raw_input())
-fact=1
-while(n>0):
-    fact=fact*n
-    n=n-1
-print(fact)
+num=int(raw_input())
+n=1
+while num>0:
+	n=n*num
+	num=num-1
+print(n)
