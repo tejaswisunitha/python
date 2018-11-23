@@ -1,6 +1,6 @@
-n=int(raw_input())
-m=int(raw_input())
-n=n^m
-m=n^m
-n=n^m
-print n,m
+b=int(raw_input())
+a=int(raw_input())
+b=b^a
+a=b^a
+b=b^a
+print a,b
