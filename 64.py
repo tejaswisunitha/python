@@ -1,5 +1,4 @@
-m=int(raw_input())
-n=int(raw_input())
+m,n=map(int,(raw_input().split())
 sum=m+n
 if(sum%2==0):
     print "even"
